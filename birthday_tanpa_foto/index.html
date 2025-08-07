@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selamat Ulang Tahun, Sayang!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Ulang Tahun, Devia Cantik ❤️</h1>
+    <p>Hari ini adalah hari spesial, karena kamu bukan hanya lahir ke dunia, tapi kamu lahir di dalam hatinya aku 🌸</p>
+    <button onclick="tampilkanPesan()">Klik untuk kejutan 🎁</button>
+    <div id="pesan" class="hidden">
+      <p>Hari ini adalah hari paling indah, karena di hari ini seseorang yang paling aku cintai dilahirkan ke dunia. 😘</p>
+      <p>Terima kasih sudah hadir dalam hidupku, membawa tawa, cinta, dan kehangatan yang tak pernah habis.💖</p>
+      <p>Semoga usiamu membawa banyak kebahagiaan, keberkahan, dan mimpi-mimpi indah yang satu per satu menjadi nyata. 
+      Aku akan selalu ada untuk kamu — dalam tawa, dalam tangis, dalam apapun itu.🌹</p>
+      <p><b>Aku sayang kamu, Devia. Hari ini dan setiap hari.</b>!</p> ❤️
+    </div>
+
+    <h2 class="gallery-title">Kenangan Manis Kita 💑</h2>
+    <div class="gallery">
+      <img src="images/1.png" alt="Foto 1" onclick="tampilFoto(this)">
+      <img src="images/2.png" alt="Foto 2" onclick="tampilFoto(this)">
+      <img src="images/3.png" alt="Foto 3" onclick="tampilFoto(this)">
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox" onclick="tutupFoto()">
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
+
+  <canvas id="hearts"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
